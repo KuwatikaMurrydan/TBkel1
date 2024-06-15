@@ -1,0 +1,354 @@
+/* myfont */
+.poppins-regular,
+.poppins-medium,
+.poppins-semibold,
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+}
+
+/* memulai deklarasi css */
+/* untuk root */
+:root {
+  --bg: #202427;
+  --color: #0d3b61;
+}
+/* untuk body */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: var(--color);
+  line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+* {
+  z-index: 2;
+}
+
+.navbar-nav {
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 16px;
+}
+
+/* .nav-item .nav-link.active {
+  color: #cc7212;
+  font-weight: 700;
+} */
+
+.button-daftar {
+  width: 84px;
+  background-color: transparent;
+  border: transparent;
+  color: #fff;
+  font-weight: 500;
+}
+
+.button-masuk {
+  width: 84px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: transparent;
+  color: var(--color);
+  font-weight: 500;
+}
+
+/* Hero Section */
+
+.button-hero {
+  width: 176px;
+  height: 46;
+  background-color: #fff;
+  border-radius: 10px;
+  border: transparent;
+  color: var(--color);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hero {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.img-hero {
+  width: 90%;
+  height: 100%;
+  object-fit: cover; /* add this to ensure the image covers the entire container */
+}
+
+.tagline {
+  margin-top: 140px;
+  z-index: 3;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hero-title-2 {
+  font-size: 26px;
+  font-weight: 500;
+  display: inline-flex;
+  color: #fff;
+}
+
+.hero-text {
+  font-size: 12px;
+  font-weight: 400;
+  display: inline-flex;
+  color: #fff;
+}
+
+/* REKOMENDASI TEMPAT LIBURAN */
+.liburan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 30px;
+}
+
+.container {
+  background: url(img-kontak/kontak.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.kontak {
+  padding-top: 50px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.judul {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.perintah {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.button-kirim-kontak {
+  width: 90px;
+  height: 50px;
+  background-color: var(--color);
+  border-radius: 10px;
+  border: transparent;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+/* paketan */
+.container {
+  background: url(img-paketan/paketan.jpeg);
+}
+
+.box-paketan {
+  margin-top: 70px;
+  color: #fff;
+  font-weight: 800px;
+}
+
+.row {
+  color: #fff;
+}
+
+/* login */
+.bg-image {
+  background-image: url("imglogin/login.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-container {
+  background: transparent;
+  padding: 100px;
+}
+
+.box-login {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Latar belakang putih semi-transparan */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+  max-width: 400px;
+  width: 100%;
+}
+
+.textselamat {
+  font-weight: 600;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* katalog */
+.card {
+  margin-top: 80px;
+}
+
+.card-body {
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-stock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price {
+  margin-left: 20px;
+}
+
+.stock {
+  color: #888; /* Warna item stok */
+  margin-right: 20px;
+}
+
+.price,
+.stock {
+  margin-top: -8px;
+}
+
+.card-title {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.booking {
+  background-color: #cc7212;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+  padding: 5px 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: -17px;
+}
+
+.card-title,
+.card-text,
+.price,
+.stock {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+  transition: text-shadow 0.3s ease; /* Transisi efek bayangan */
+}
+
+/* tentang abxy */
+
+.tentang-abxy {
+  background: url(img-tentang/katalog.jpeg);
+
+  background-size: cover;
+}
+.jumbotron h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.jumbotron p {
+  font-size: 24px;
+}
+.section {
+  padding: 50px 0;
+}
+.section-title {
+  margin-top: 80px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+
+.section-title-2 {
+  margin-top: 5px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+.section-text {
+  text-align: justify;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-body {
+  padding: 20px;
+}
+.card-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card-text {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.section-misi {
+  margin-top: -30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  background-color: #031421;
+  background-clip: border-box;
+  padding-top: 1px;
+}
